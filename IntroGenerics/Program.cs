@@ -6,7 +6,7 @@
         {
             Console.Clear();
 
-            PrintService pService = new PrintService();
+            PrintService<int> pService = new PrintService<int>();
 
             Console.Write("How many values? ");
             int n = int.Parse(Console.ReadLine());
